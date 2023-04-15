@@ -9,6 +9,7 @@
 body {
     background: rgba(255, 255, 255, 1);
     font-family: 'Inter';
+    margin: 0;
 }
 
 .container {
@@ -375,14 +376,14 @@ footer{
     main{
         .container{
             .soon{
-                padding-right: 140px;
-                padding-top: 42px;
-                padding-bottom: 182px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;         
+                padding-right: 0;
+                padding-top: 80px;
+                margin-right: -32px;
+                align-items: flex-start;
+                // padding-bottom: 182px;  
+                overflow: hidden;   
                 .soon-content{
-                    width: 580px;
+                    min-width: 274px;
                     h1{
                         margin-top: 0;
                         margin-bottom: 14px;
@@ -393,9 +394,9 @@ footer{
                         line-height: 58px;
                     }
                     p{
-                        padding-top: 32px;
-                        padding-bottom: 41px;
-                        padding-right: 100px;
+                        padding-top: 0;
+                        padding-bottom: 32px;
+                        // padding-right: 100px;
                         font-weight: 400;
                         font-size: 20px;
                         line-height: 150%;
@@ -403,10 +404,10 @@ footer{
                     }
                 }
                 .soon-img{
-                    height: 519px;
-                    width: 354px;
-                    position: relative;
-                    z-index: 10;
+                    top: -38px;
+                    width: 189.62px;
+                    height: 278px;
+                    
                 }
             }
         
