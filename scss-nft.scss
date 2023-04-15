@@ -305,10 +305,7 @@ footer{
                     ul{
                         display: flex;
                         padding-top: 32px;
-                        gap: 16px
-                        
-                        li{
-                        }
+                        gap: 16px;
                     }
                 }
                 .link{
@@ -459,6 +456,7 @@ footer{
         }
         .container{
             .soon2{
+                padding-top: 64px;
                 padding-right: 0;
                 overflow: hidden;
                 margin-right: -32px;
@@ -489,60 +487,26 @@ footer{
                 padding-top: 42px;
                 .footer-top{
                     flex-wrap: wrap;
-                    padding-bottom: 120px;
+                    padding-bottom: 64px;
                     .nftlanding{
                         width: 100%;
-                        img{padding-bottom: 30px;}
-                        span{
-                            font-weight: 400;
-                            font-size: 20px;
-                            line-height: 100%;
-                            color: #555555;
-                        }
+                        img{display: block;}
                         ul{
-                            display: flex;
-                            padding-top: 32px;
-                            gap: 16px
-                            
-                            li{
-                            }
+                            padding-bottom: 64px;
                         }
                     }
                     .link{
                         display: grid;
-                        justify-content: space-between;
-                        gap: 101px;
-                            .links-title{
-                                font-weight: 700;
-                                font-size: 16px;
-                                line-height: 19px;
-                                letter-spacing: 0.1em;
-                                text-transform: uppercase;
-                                color: #555555;
-                                padding-bottom: 28px;
-                            }
-                            ul{
-                                display: flex;
-                                flex-direction: column;
-                                gap: 10px;
-                                li{
-                                    a{
-                                        font-weight: 400;
-                                        font-size: 20px;
-                                        line-height: 100%;
-                                    }
-                                }
-                            }
-                      
+                        grid-template-columns: 1fr 1fr;
+                        gap: 75px;
+                        row-gap: 40px;                     
                     }
                 }
                 .footer-bottom {
-                    display: flex;
-                    justify-content: space-between;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 100%;
-                    color: #999999;
+                    .Launching{
+                        display: none;
+                    }
+                    
                 }
             }
         }
