@@ -38,7 +38,6 @@ ul li a {
 
 .button {
   padding: 22px 56px;
-  width: 188px;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -353,6 +352,7 @@ footer .container .footer .footer-bottom {
     padding-top: 80px;
     margin-right: -32px;
     align-items: flex-start;
+    padding-bottom: 102px;
     overflow: hidden;
   }
   main .container .soon .soon-content {
@@ -370,14 +370,133 @@ footer .container .footer .footer-bottom {
   main .container .soon .soon-content p {
     padding-top: 0;
     padding-bottom: 32px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #555555;
+    padding-right: 0;
   }
   main .container .soon .soon-img {
     top: -38px;
     width: 189.62px;
     height: 278px;
+  }
+  main .container .free-nft {
+    padding-bottom: 56px;
+    margin: 0 -32px;
+  }
+  main .container .free-nft .free-nft-content {
+    padding: 122px 32px 32px 32px;
+    border-radius: 0;
+    margin-bottom: 64px;
+  }
+  main .container .free-nft .free-nft-content p {
+    margin-top: 16px;
+  }
+  main .container .free-nft .free-ntf-logo ul {
+    padding: 0 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 27.5px;
+  }
+  main .container .free-nft .free-ntf-logo ul .change ::after {
+    content: "Boom";
+    font-size: 31.0199px;
+  }
+  main .container .free-nft .free-ntf-logo ul .long-word {
+    display: none;
+  }
+  main .container .free-nft .free-ntf-logo ul li.smaller-word a {
+    font-size: 31.0199px;
+  }
+  main .container .free-nft .free-ntf-logo ul li a {
+    font-size: 38.3895px;
+    line-height: 45px;
+  }
+  main .container .free-nft .free-ntf-logo ul li a img {
+    padding-right: 15px;
+  }
+  main .container .auction {
+    padding-bottom: 92px;
+  }
+  main .container .auction p {
+    margin-bottom: 40px;
+  }
+  main .container .auction .sell .sell-box > img {
+    Width: 290px;
+    Height: 278px;
+  }
+  main .container .soon2 {
+    padding-right: 0;
+    overflow: hidden;
+    margin-right: -32px;
+    align-items: flex-end;
+  }
+  main .container .soon2 .soon2-content {
+    min-width: 207px;
+    margin-bottom: 86px;
+  }
+  main .container .soon2 .soon2-content p {
+    padding-bottom: 42px;
+    padding-right: 0;
+  }
+  main .container .soon2 .soon2-img {
+    width: 206px;
+    height: 467px;
+    position: relative;
+    bottom: 0;
+  }
+  footer .container .footer {
+    padding-bottom: 105px;
+    padding-top: 42px;
+  }
+  footer .container .footer .footer-top {
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+  }
+  footer .container .footer .footer-top .nftlanding {
+    width: 100%;
+  }
+  footer .container .footer .footer-top .nftlanding img {
+    padding-bottom: 30px;
+  }
+  footer .container .footer .footer-top .nftlanding span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #555555;
+  }
+  footer .container .footer .footer-top .nftlanding ul {
+    display: flex;
+    padding-top: 32px;
+    gap: 16px li;
+  }
+  footer .container .footer .footer-top .link {
+    display: grid;
+    justify-content: space-between;
+    gap: 101px;
+  }
+  footer .container .footer .footer-top .link .links-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #555555;
+    padding-bottom: 28px;
+  }
+  footer .container .footer .footer-top .link ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  footer .container .footer .footer-top .link ul li a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+  }
+  footer .container .footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #999999;
   }
 }/*# sourceMappingURL=scss-nft.css.map */

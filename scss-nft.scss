@@ -39,7 +39,6 @@ ul li a {
 
 .button {
     padding: 22px 56px;
-    width: 188px;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -49,7 +48,6 @@ ul li a {
     border: 4px solid rgba(255, 129, 57, 1);
     border-radius: 100px;
     text-decoration: none;
-
 }
 .color {
     color: #FF3998;
@@ -380,7 +378,7 @@ footer{
                 padding-top: 80px;
                 margin-right: -32px;
                 align-items: flex-start;
-                // padding-bottom: 182px;  
+                padding-bottom: 102px;  
                 overflow: hidden;   
                 .soon-content{
                     min-width: 274px;
@@ -396,11 +394,7 @@ footer{
                     p{
                         padding-top: 0;
                         padding-bottom: 32px;
-                        // padding-right: 100px;
-                        font-weight: 400;
-                        font-size: 20px;
-                        line-height: 150%;
-                        color: #555555;
+                        padding-right: 0;
                     }
                 }
                 .soon-img{
@@ -412,6 +406,146 @@ footer{
             }
         
         }
-    }    
+        .container{         
+            .free-nft{
+                padding-bottom: 56px;
+                margin: 0 -32px;
+                .free-nft-content{
+                    padding: 122px 32px 32px 32px;
+                    border-radius: 0;
+                    margin-bottom: 64px;          
+                    p{
+                        margin-top: 16px;
+                    }
+                }
+                .free-ntf-logo{
+                    ul{
+                        padding: 0 32px;
+                        .change ::after{
+                            content:'Boom';
+                            font-size: 31.0199px;
+                        } 
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        row-gap: 27.5px;
+                        .long-word{display: none;}
+                        li{ 
+                            &.smaller-word a{font-size: 31.0199px;}               
+                            a{   
+                                font-size: 38.3895px;
+                                line-height: 45px;  
+                                img{padding-right: 15px;}                            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .container{
+            .auction{
+                padding-bottom: 92px;
+                p{
+                    margin-bottom: 40px;
+                }
+                .sell{
+                    .sell-box{
+                        >img{
+                            Width: 290px;
+                            Height: 278px;
+                        }
+                    }
+                }
+            }
+        }
+        .container{
+            .soon2{
+                padding-right: 0;
+                overflow: hidden;
+                margin-right: -32px;
+                align-items: flex-end;
+                .soon2-content{
+                    min-width: 207px;
+                    margin-bottom: 86px;
+                    p{
+                        padding-bottom: 42px;
+                        padding-right: 0;
+
+                    }
+                }
+                .soon2-img{
+                    width: 206px;
+                    height: 467px;
+                    position: relative;
+                    bottom: 0;
+
+                }
+            }
+        }
+    } 
+    footer{
+        .container{
+            .footer{
+                padding-bottom: 105px;
+                padding-top: 42px;
+                .footer-top{
+                    flex-wrap: wrap;
+                    padding-bottom: 120px;
+                    .nftlanding{
+                        width: 100%;
+                        img{padding-bottom: 30px;}
+                        span{
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 100%;
+                            color: #555555;
+                        }
+                        ul{
+                            display: flex;
+                            padding-top: 32px;
+                            gap: 16px
+                            
+                            li{
+                            }
+                        }
+                    }
+                    .link{
+                        display: grid;
+                        justify-content: space-between;
+                        gap: 101px;
+                            .links-title{
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 19px;
+                                letter-spacing: 0.1em;
+                                text-transform: uppercase;
+                                color: #555555;
+                                padding-bottom: 28px;
+                            }
+                            ul{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 10px;
+                                li{
+                                    a{
+                                        font-weight: 400;
+                                        font-size: 20px;
+                                        line-height: 100%;
+                                    }
+                                }
+                            }
+                      
+                    }
+                }
+                .footer-bottom {
+                    display: flex;
+                    justify-content: space-between;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 100%;
+                    color: #999999;
+                }
+            }
+        }
+    }   
 }
 
