@@ -408,6 +408,8 @@ footer{
                 padding-bottom: 56px;
                 margin: 0 -32px;
                 .free-nft-content{
+                    background-image: url(./pictures/background\ \(1\).svg);
+                    background-size: cover;
                     padding: 122px 32px 32px 32px;
                     border-radius: 0;
                     margin-bottom: 64px;          
@@ -464,11 +466,16 @@ footer{
                 .soon2-content{
                     min-width: 207px;
                     margin-bottom: 86px;
+                    h2{
+                        border-bottom: 1px solid #EEEEEE;
+                        padding-bottom: 17px;
+                    }
                     p{
+                        padding-top: 5px;
                         padding-bottom: 42px;
                         padding-right: 0;
-
                     }
+
                 }
                 .soon2-img{
                     width: 206px;
@@ -490,9 +497,12 @@ footer{
                     padding-bottom: 64px;
                     .nftlanding{
                         width: 100%;
-                        img{display: block;}
+                        img{
+                            display: block;     
+                        }
                         ul{
                             padding-bottom: 64px;
+                            img{padding-bottom: 0;}
                         }
                     }
                     .link{
