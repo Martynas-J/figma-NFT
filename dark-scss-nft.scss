@@ -178,7 +178,6 @@ main{
     .container{
         .auction{
             padding-bottom: 120px;
-            border-bottom: 1px solid #555555;
             .aution-title{
                 font-weight: 500;
                 font-size: 40px;
@@ -246,10 +245,13 @@ main{
     .container{
         .soon2{
             padding-right: 230px;
+            padding-left: 32px;
+            margin-left: -32px;
             padding-top: 85px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            border-top: 1px solid #555555;
             border-bottom: 1px solid #555555;
             .soon2-content{
                 width: 580px;
@@ -475,7 +477,6 @@ footer{
                     min-width: 207px;
                     margin-bottom: 86px;
                     h2{
-                        border-bottom: 1px solid #EEEEEE;
                         padding-bottom: 17px;
                     }
                     p{

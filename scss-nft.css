@@ -160,7 +160,6 @@ main .container .free-nft .free-ntf-logo ul li a img {
 }
 main .container .auction {
   padding-bottom: 120px;
-  border-bottom: 1px solid #EEEEEE;
 }
 main .container .auction .aution-title {
   font-weight: 500;
@@ -232,6 +231,7 @@ main .container .soon2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
 }
 main .container .soon2 .soon2-content {
@@ -425,6 +425,8 @@ footer .container .footer .footer-bottom {
     Height: 278px;
   }
   main .container .soon2 {
+    padding-left: 32px;
+    margin-left: -32px;
     padding-top: 64px;
     padding-right: 0;
     overflow: hidden;
@@ -436,7 +438,6 @@ footer .container .footer .footer-bottom {
     margin-bottom: 86px;
   }
   main .container .soon2 .soon2-content h2 {
-    border-bottom: 1px solid #EEEEEE;
     padding-bottom: 17px;
   }
   main .container .soon2 .soon2-content p {
