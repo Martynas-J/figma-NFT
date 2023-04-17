@@ -1,0 +1,47 @@
+@use 'responsive';
+header {
+    .container{
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 70px;
+            @include responsive.mob{
+                padding-top: 32px;
+            }
+            .logo{
+                width: 198px;
+                height: 36px;
+                @include responsive.mob{
+                    width: 198px;
+                    height: 36px;
+                }
+            }
+            .sandwich{
+                display: none;
+                @include responsive.mob{
+                    display: block;
+                    width: 24px;
+                    height: 22px;
+                }
+            }
+            .menu{
+                @include responsive.mob{
+                    display: none;  
+                }
+                ul{
+                    display: flex;
+                    gap: 28px;
+                    li{
+                        a{
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 100%;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

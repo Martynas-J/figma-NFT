@@ -1,0 +1,91 @@
+@use '../responsive';
+main{ 
+  .container{
+        .free-nft{
+            padding-bottom: 120px;
+            @include responsive.mob{
+                padding-bottom: 56px;
+                margin: 0 -32px;
+            }
+            .free-nft-content{
+                background-image: url(./pictures/background.svg);
+                padding: 154px 0 64px 64px;
+                border-radius: 12px;
+                margin-bottom: 120px;
+                background-repeat: no-repeat; 
+                @include responsive.mob{
+                    background-image: url(./pictures/background\ \(1\).svg);
+                    background-size: cover;
+                    padding: 122px 32px 32px 32px;
+                    border-radius: 0;
+                    margin-bottom: 64px;     
+                }           
+                .title{
+                    font-size: 40px;
+                    line-height: 48px;
+                    display: flex;
+                    align-items: flex-end;
+                    color: #111111;
+                    font-weight: 500;
+                }
+                p{
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #111111;
+                    margin-top: 5px;
+                    @include responsive.mob{
+                        margin-top: 16px;
+                    } 
+                }
+            }
+            .free-ntf-logo{
+                ul{
+                    .change ::after{
+                        @include responsive.mob{
+                            content:'Boom';
+                            font-size: 31.0199px;
+                        }
+                    }
+                    .long-word{
+                        @include responsive.mob{
+                        display: none;
+                        }
+                    }
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    @include responsive.mob{
+                        padding: 0 32px;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        row-gap: 27.5px;
+                    } 
+                    li{
+                        &.smaller-word a{
+                            @include responsive.mob{
+                            font-size: 31.0199px;
+                            }
+                        }  
+                        a{
+                            font-size: 31.0199px;
+                            line-height: 36px;
+                            color: #999999;
+                            display: flex;
+                            align-items: center;
+                            @include responsive.mob{
+                                font-size: 38.3895px;
+                                line-height: 45px;
+                            } 
+                            img{
+                                padding-right: 15px;
+                                @include responsive.mob{
+                                    padding-right: 15px;
+                                } 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+} 

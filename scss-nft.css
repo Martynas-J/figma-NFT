@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 *,
 *::before,
 *::after {
@@ -17,6 +16,11 @@ body {
   margin: 0 auto;
   padding: 0 80px;
   width: 100%;
+}
+@media screen and (max-width: 1040px) {
+  .container {
+    padding: 0 32px;
+  }
 }
 
 ul {
@@ -59,12 +63,35 @@ header .container .header {
   align-items: center;
   padding-top: 70px;
 }
+@media screen and (max-width: 1040px) {
+  header .container .header {
+    padding-top: 32px;
+  }
+}
 header .container .header .logo {
   width: 198px;
   height: 36px;
 }
+@media screen and (max-width: 1040px) {
+  header .container .header .logo {
+    width: 198px;
+    height: 36px;
+  }
+}
 header .container .header .sandwich {
   display: none;
+}
+@media screen and (max-width: 1040px) {
+  header .container .header .sandwich {
+    display: block;
+    width: 24px;
+    height: 22px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  header .container .header .menu {
+    display: none;
+  }
 }
 header .container .header .menu ul {
   display: flex;
@@ -84,8 +111,23 @@ main .container .soon {
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-width: 1040px) {
+  main .container .soon {
+    padding-right: 0;
+    padding-top: 80px;
+    margin-right: -32px;
+    align-items: flex-start;
+    padding-bottom: 102px;
+    overflow: hidden;
+  }
+}
 main .container .soon .soon-content {
   width: 580px;
+}
+@media screen and (max-width: 1040px) {
+  main .container .soon .soon-content {
+    min-width: 274px;
+  }
 }
 main .container .soon .soon-content h1 {
   margin-top: 0;
@@ -97,12 +139,25 @@ main .container .soon .soon-content h1 {
   text-transform: uppercase;
   color: #FF3998;
 }
+@media screen and (max-width: 1040px) {
+  main .container .soon .soon-content h1 {
+    margin-top: 0;
+    margin-bottom: 14px;
+  }
+}
 main .container .soon .soon-content h2 {
   margin: 0;
   font-weight: 900;
   font-size: 96px;
   line-height: 116px;
   color: #111111;
+}
+@media screen and (max-width: 1040px) {
+  main .container .soon .soon-content h2 {
+    margin: 0;
+    font-size: 48px;
+    line-height: 58px;
+  }
 }
 main .container .soon .soon-content p {
   padding-top: 32px;
@@ -113,14 +168,35 @@ main .container .soon .soon-content p {
   line-height: 150%;
   color: #555555;
 }
+@media screen and (max-width: 1040px) {
+  main .container .soon .soon-content p {
+    padding-top: 0;
+    padding-bottom: 32px;
+    padding-right: 0;
+  }
+}
 main .container .soon .soon-img {
   height: 519px;
   width: 354px;
   position: relative;
   z-index: 10;
 }
+@media screen and (max-width: 1040px) {
+  main .container .soon .soon-img {
+    top: -38px;
+    width: 189.62px;
+    height: 278px;
+  }
+}
+
 main .container .free-nft {
   padding-bottom: 120px;
+}
+@media screen and (max-width: 1040px) {
+  main .container .free-nft {
+    padding-bottom: 56px;
+    margin: 0 -32px;
+  }
 }
 main .container .free-nft .free-nft-content {
   background-image: url(./pictures/background.svg);
@@ -128,6 +204,15 @@ main .container .free-nft .free-nft-content {
   border-radius: 12px;
   margin-bottom: 120px;
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 1040px) {
+  main .container .free-nft .free-nft-content {
+    background-image: url(./pictures/background\ \(1\).svg);
+    background-size: cover;
+    padding: 122px 32px 32px 32px;
+    border-radius: 0;
+    margin-bottom: 64px;
+  }
 }
 main .container .free-nft .free-nft-content .title {
   font-size: 40px;
@@ -143,10 +228,39 @@ main .container .free-nft .free-nft-content p {
   color: #111111;
   margin-top: 5px;
 }
+@media screen and (max-width: 1040px) {
+  main .container .free-nft .free-nft-content p {
+    margin-top: 16px;
+  }
+}
 main .container .free-nft .free-ntf-logo ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 1040px) {
+  main .container .free-nft .free-ntf-logo ul .change ::after {
+    content: "Boom";
+    font-size: 31.0199px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  main .container .free-nft .free-ntf-logo ul .long-word {
+    display: none;
+  }
+}
+@media screen and (max-width: 1040px) {
+  main .container .free-nft .free-ntf-logo ul {
+    padding: 0 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 27.5px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  main .container .free-nft .free-ntf-logo ul li.smaller-word a {
+    font-size: 31.0199px;
+  }
 }
 main .container .free-nft .free-ntf-logo ul li a {
   font-size: 31.0199px;
@@ -155,11 +269,28 @@ main .container .free-nft .free-ntf-logo ul li a {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 1040px) {
+  main .container .free-nft .free-ntf-logo ul li a {
+    font-size: 38.3895px;
+    line-height: 45px;
+  }
+}
 main .container .free-nft .free-ntf-logo ul li a img {
   padding-right: 15px;
 }
+@media screen and (max-width: 1040px) {
+  main .container .free-nft .free-ntf-logo ul li a img {
+    padding-right: 15px;
+  }
+}
+
 main .container .auction {
   padding-bottom: 120px;
+}
+@media screen and (max-width: 1040px) {
+  main .container .auction {
+    padding-bottom: 92px;
+  }
 }
 main .container .auction .aution-title {
   font-weight: 500;
@@ -176,6 +307,11 @@ main .container .auction p {
   color: #555555;
   margin-bottom: 56px;
 }
+@media screen and (max-width: 1040px) {
+  main .container .auction p {
+    margin-bottom: 40px;
+  }
+}
 main .container .auction p a {
   color: #555555;
 }
@@ -187,6 +323,12 @@ main .container .auction .sell {
 main .container .auction .sell .sell-box > img {
   Width: 290px;
   Height: 278px;
+}
+@media screen and (max-width: 1040px) {
+  main .container .auction .sell .sell-box > img {
+    Width: 290px;
+    Height: 278px;
+  }
 }
 main .container .auction .sell .sell-box .series {
   padding: 24px;
@@ -225,6 +367,7 @@ main .container .auction .sell .sell-box .series div:nth-child(3) span {
   font-size: 18px;
   line-height: 100%;
 }
+
 main .container .soon2 {
   padding-right: 230px;
   padding-top: 85px;
@@ -234,8 +377,25 @@ main .container .soon2 {
   border-top: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
 }
+@media screen and (max-width: 1040px) {
+  main .container .soon2 {
+    padding-left: 32px;
+    margin-left: -32px;
+    padding-top: 64px;
+    padding-right: 0;
+    overflow: hidden;
+    margin-right: -32px;
+    align-items: flex-end;
+  }
+}
 main .container .soon2 .soon2-content {
   width: 580px;
+}
+@media screen and (max-width: 1040px) {
+  main .container .soon2 .soon2-content {
+    min-width: 207px;
+    margin-bottom: 86px;
+  }
 }
 main .container .soon2 .soon2-content h1 {
   margin-top: 0;
@@ -254,6 +414,11 @@ main .container .soon2 .soon2-content h2 {
   line-height: 68px;
   color: #111111;
 }
+@media screen and (max-width: 1040px) {
+  main .container .soon2 .soon2-content h2 {
+    padding-bottom: 17px;
+  }
+}
 main .container .soon2 .soon2-content p {
   margin: 0;
   padding-top: 32px;
@@ -264,25 +429,62 @@ main .container .soon2 .soon2-content p {
   line-height: 150%;
   color: #555555;
 }
+@media screen and (max-width: 1040px) {
+  main .container .soon2 .soon2-content p {
+    padding-top: 5px;
+    padding-bottom: 42px;
+    padding-right: 0;
+  }
+}
 main .container .soon2 .soon2-img {
   width: 206px;
   height: 467px;
+}
+@media screen and (max-width: 1040px) {
+  main .container .soon2 .soon2-img {
+    width: 206px;
+    height: 467px;
+    position: relative;
+    bottom: 0;
+  }
 }
 
 footer .container .footer {
   padding-bottom: 71px;
   padding-top: 120px;
 }
+@media screen and (max-width: 1040px) {
+  footer .container .footer {
+    padding-bottom: 105px;
+    padding-top: 42px;
+  }
+}
 footer .container .footer .footer-top {
   display: flex;
   justify-content: space-between;
   padding-bottom: 120px;
 }
+@media screen and (max-width: 1040px) {
+  footer .container .footer .footer-top {
+    flex-wrap: wrap;
+    padding-bottom: 64px;
+  }
+}
 footer .container .footer .footer-top .nftlanding {
   width: 20%;
 }
+@media screen and (max-width: 1040px) {
+  footer .container .footer .footer-top .nftlanding {
+    width: 100%;
+  }
+}
 footer .container .footer .footer-top .nftlanding img {
   padding-bottom: 30px;
+}
+@media screen and (max-width: 1040px) {
+  footer .container .footer .footer-top .nftlanding img {
+    display: block;
+  }
 }
 footer .container .footer .footer-top .nftlanding span {
   font-weight: 400;
@@ -295,10 +497,28 @@ footer .container .footer .footer-top .nftlanding ul {
   padding-top: 32px;
   gap: 16px;
 }
+@media screen and (max-width: 1040px) {
+  footer .container .footer .footer-top .nftlanding ul {
+    padding-bottom: 64px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  footer .container .footer .footer-top .nftlanding ul img {
+    padding-bottom: 0;
+  }
+}
 footer .container .footer .footer-top .link {
   display: flex;
   justify-content: space-between;
   gap: 101px;
+}
+@media screen and (max-width: 1040px) {
+  footer .container .footer .footer-top .link {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 75px;
+    row-gap: 40px;
+  }
 }
 footer .container .footer .footer-top .link .links-title {
   font-weight: 700;
@@ -327,156 +547,7 @@ footer .container .footer .footer-bottom {
   line-height: 100%;
   color: #999999;
 }
-
 @media screen and (max-width: 1040px) {
-  .container {
-    padding: 0 32px;
-  }
-  header .container .header {
-    padding-top: 32px;
-  }
-  header .container .header .logo {
-    width: 198px;
-    height: 36px;
-  }
-  header .container .header .sandwich {
-    display: block;
-    width: 24px;
-    height: 22px;
-  }
-  header .container .header .menu {
-    display: none;
-  }
-  main .container .soon {
-    padding-right: 0;
-    padding-top: 80px;
-    margin-right: -32px;
-    align-items: flex-start;
-    padding-bottom: 102px;
-    overflow: hidden;
-  }
-  main .container .soon .soon-content {
-    min-width: 274px;
-  }
-  main .container .soon .soon-content h1 {
-    margin-top: 0;
-    margin-bottom: 14px;
-  }
-  main .container .soon .soon-content h2 {
-    margin: 0;
-    font-size: 48px;
-    line-height: 58px;
-  }
-  main .container .soon .soon-content p {
-    padding-top: 0;
-    padding-bottom: 32px;
-    padding-right: 0;
-  }
-  main .container .soon .soon-img {
-    top: -38px;
-    width: 189.62px;
-    height: 278px;
-  }
-  main .container .free-nft {
-    padding-bottom: 56px;
-    margin: 0 -32px;
-  }
-  main .container .free-nft .free-nft-content {
-    background-image: url(./pictures/background\ \(1\).svg);
-    background-size: cover;
-    padding: 122px 32px 32px 32px;
-    border-radius: 0;
-    margin-bottom: 64px;
-  }
-  main .container .free-nft .free-nft-content p {
-    margin-top: 16px;
-  }
-  main .container .free-nft .free-ntf-logo ul {
-    padding: 0 32px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 27.5px;
-  }
-  main .container .free-nft .free-ntf-logo ul .change ::after {
-    content: "Boom";
-    font-size: 31.0199px;
-  }
-  main .container .free-nft .free-ntf-logo ul .long-word {
-    display: none;
-  }
-  main .container .free-nft .free-ntf-logo ul li.smaller-word a {
-    font-size: 31.0199px;
-  }
-  main .container .free-nft .free-ntf-logo ul li a {
-    font-size: 38.3895px;
-    line-height: 45px;
-  }
-  main .container .free-nft .free-ntf-logo ul li a img {
-    padding-right: 15px;
-  }
-  main .container .auction {
-    padding-bottom: 92px;
-  }
-  main .container .auction p {
-    margin-bottom: 40px;
-  }
-  main .container .auction .sell .sell-box > img {
-    Width: 290px;
-    Height: 278px;
-  }
-  main .container .soon2 {
-    padding-left: 32px;
-    margin-left: -32px;
-    padding-top: 64px;
-    padding-right: 0;
-    overflow: hidden;
-    margin-right: -32px;
-    align-items: flex-end;
-  }
-  main .container .soon2 .soon2-content {
-    min-width: 207px;
-    margin-bottom: 86px;
-  }
-  main .container .soon2 .soon2-content h2 {
-    padding-bottom: 17px;
-  }
-  main .container .soon2 .soon2-content p {
-    padding-top: 5px;
-    padding-bottom: 42px;
-    padding-right: 0;
-  }
-  main .container .soon2 .soon2-img {
-    width: 206px;
-    height: 467px;
-    position: relative;
-    bottom: 0;
-  }
-  footer .container .footer {
-    padding-bottom: 105px;
-    padding-top: 42px;
-  }
-  footer .container .footer .footer-top {
-    flex-wrap: wrap;
-    padding-bottom: 64px;
-  }
-  footer .container .footer .footer-top .nftlanding {
-    width: 100%;
-  }
-  footer .container .footer .footer-top .nftlanding img {
-    display: block;
-  }
-  footer .container .footer .footer-top .nftlanding ul {
-    padding-bottom: 64px;
-  }
-  footer .container .footer .footer-top .nftlanding ul img {
-    padding-bottom: 0;
-  }
-  footer .container .footer .footer-top .link {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 75px;
-    row-gap: 40px;
-  }
   footer .container .footer .footer-bottom .Launching {
     display: none;
   }

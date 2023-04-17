@@ -1,0 +1,80 @@
+@use '../responsive';
+main{
+    .container{
+        .auction{
+            padding-bottom: 120px;
+            @include responsive.mob{
+                padding-bottom: 92px;
+            } 
+            .aution-title{
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 48px;
+                display: flex;
+                align-items: flex-end;
+                color: #111111;
+            }
+            p{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 150%;
+                color: #555555;
+                margin-bottom: 56px;
+                @include responsive.mob{
+                    margin-bottom: 40px;
+                }
+                a{ color: #555555;}
+            }
+            .sell{
+                display: flex;
+                gap: 40px;
+                overflow: hidden;
+                .sell-box{
+                    >img{
+                        Width: 290px;
+                        Height: 278px;
+                        @include responsive.mob{
+                            Width: 290px;
+                            Height: 278px;
+                        }
+                    }
+                    .series{
+                        padding: 24px;
+                        background-color: rgba(238, 238, 238, 1);
+                        border-bottom-left-radius: 16px;
+                        border-bottom-right-radius: 16px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 12px;
+                        div{
+                            display: flex;
+                            justify-content: space-between;
+                            span.gloop{
+                                font-weight: 500;
+                                font-size: 12px;
+                                line-height: 100%;
+                                text-transform: uppercase;
+                                color: rgba(255, 129, 57, 1);
+                            }
+                            span{color: #777777;}
+                        }  
+                        div:nth-child(1) span:nth-child(2) {
+                            text-transform: uppercase;
+                        }   
+                        div:nth-child(2) span {
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 100%;
+                            color: #111111;
+                        }
+                        div:nth-child(3) span {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 100%;
+                        }                                    
+                    }
+                }
+            }
+        }
+    }
+}

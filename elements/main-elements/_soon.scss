@@ -1,0 +1,79 @@
+@use '../responsive';
+main{
+    .container{
+        .soon{
+            padding-right: 140px;
+            padding-top: 182px;
+            padding-bottom: 182px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            @include responsive.mob{
+                padding-right: 0;
+                padding-top: 80px;
+                margin-right: -32px;
+                align-items: flex-start;
+                padding-bottom: 102px;  
+                overflow: hidden;
+            }         
+            .soon-content{
+                width: 580px;
+                @include responsive.mob{
+                    min-width: 274px;
+                } 
+                h1{
+                    margin-top: 0;
+                    margin-bottom: 14px;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: 0.1em;
+                    text-transform: uppercase;
+                    color: #FF3998;
+                    @include responsive.mob{
+                        margin-top: 0;
+                        margin-bottom: 14px;
+                    } 
+                }
+                h2{
+                    margin: 0;
+                    font-weight: 900;
+                    font-size: 96px;
+                    line-height: 116px;
+                    color: #111111;
+                    @include responsive.mob{
+                        margin: 0;
+                        font-size: 48px;
+                        line-height: 58px;
+                    } 
+                }
+                p{
+                    padding-top: 32px;
+                    padding-bottom: 41px;
+                    padding-right: 100px;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #555555;
+                    @include responsive.mob{
+                        padding-top: 0;
+                        padding-bottom: 32px;
+                        padding-right: 0;
+                    } 
+                }
+            }
+            .soon-img{
+                height: 519px;
+                width: 354px;
+                position: relative;
+                z-index: 10;
+                @include responsive.mob{
+                    top: -38px;
+                    width: 189.62px;
+                    height: 278px;
+                } 
+            }
+        }
+
+    }
+}
